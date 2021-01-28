@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDABF8F725C318CA007E8EAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABF8F625C318CA007E8EAC /* AppDelegate.swift */; };
+		FDABF8F925C318CA007E8EAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABF8F825C318CA007E8EAC /* SceneDelegate.swift */; };
+		FDABF8FB25C318CA007E8EAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABF8FA25C318CA007E8EAC /* ViewController.swift */; };
+		FDABF8FE25C318CA007E8EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDABF8FC25C318CA007E8EAC /* Main.storyboard */; };
+		FDABF90125C318CA007E8EAC /* popytka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDABF8FF25C318CA007E8EAC /* popytka.xcdatamodeld */; };
+		FDABF90325C318CC007E8EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDABF90225C318CC007E8EAC /* Assets.xcassets */; };
+		FDABF90625C318CC007E8EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDABF90425C318CC007E8EAC /* LaunchScreen.storyboard */; };
+		FDABF91125C318CC007E8EAC /* popytkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABF91025C318CC007E8EAC /* popytkaTests.swift */; };
+		FDABF91C25C318CC007E8EAC /* popytkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABF91B25C318CC007E8EAC /* popytkaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDABF90D25C318CC007E8EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDABF8EB25C318C9007E8EAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDABF8F225C318CA007E8EAC;
+			remoteInfo = popytka;
+		};
+		FDABF91825C318CC007E8EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDABF8EB25C318C9007E8EAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDABF8F225C318CA007E8EAC;
+			remoteInfo = popytka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDABF8F325C318CA007E8EAC /* popytka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popytka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDABF8F625C318CA007E8EAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDABF8F825C318CA007E8EAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FDABF8FA25C318CA007E8EAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDABF8FD25C318CA007E8EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDABF90025C318CA007E8EAC /* popytka.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = popytka.xcdatamodel; sourceTree = "<group>"; };
+		FDABF90225C318CC007E8EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDABF90525C318CC007E8EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDABF90725C318CC007E8EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDABF90C25C318CC007E8EAC /* popytkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popytkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDABF91025C318CC007E8EAC /* popytkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popytkaTests.swift; sourceTree = "<group>"; };
+		FDABF91225C318CC007E8EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDABF91725C318CC007E8EAC /* popytkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popytkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDABF91B25C318CC007E8EAC /* popytkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popytkaUITests.swift; sourceTree = "<group>"; };
+		FDABF91D25C318CC007E8EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDABF8F025C318CA007E8EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDABF90925C318CC007E8EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDABF91425C318CC007E8EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDABF8EA25C318C9007E8EAC = {
+			isa = PBXGroup;
+			children = (
+				FDABF8F525C318CA007E8EAC /* popytka */,
+				FDABF90F25C318CC007E8EAC /* popytkaTests */,
+				FDABF91A25C318CC007E8EAC /* popytkaUITests */,
+				FDABF8F425C318CA007E8EAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDABF8F425C318CA007E8EAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDABF8F325C318CA007E8EAC /* popytka.app */,
+				FDABF90C25C318CC007E8EAC /* popytkaTests.xctest */,
+				FDABF91725C318CC007E8EAC /* popytkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDABF8F525C318CA007E8EAC /* popytka */ = {
+			isa = PBXGroup;
+			children = (
+				FDABF8F625C318CA007E8EAC /* AppDelegate.swift */,
+				FDABF8F825C318CA007E8EAC /* SceneDelegate.swift */,
+				FDABF8FA25C318CA007E8EAC /* ViewController.swift */,
+				FDABF8FC25C318CA007E8EAC /* Main.storyboard */,
+				FDABF90225C318CC007E8EAC /* Assets.xcassets */,
+				FDABF90425C318CC007E8EAC /* LaunchScreen.storyboard */,
+				FDABF90725C318CC007E8EAC /* Info.plist */,
+				FDABF8FF25C318CA007E8EAC /* popytka.xcdatamodeld */,
+			);
+			path = popytka;
+			sourceTree = "<group>";
+		};
+		FDABF90F25C318CC007E8EAC /* popytkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDABF91025C318CC007E8EAC /* popytkaTests.swift */,
+				FDABF91225C318CC007E8EAC /* Info.plist */,
+			);
+			path = popytkaTests;
+			sourceTree = "<group>";
+		};
+		FDABF91A25C318CC007E8EAC /* popytkaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDABF91B25C318CC007E8EAC /* popytkaUITests.swift */,
+				FDABF91D25C318CC007E8EAC /* Info.plist */,
+			);
+			path = popytkaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDABF8F225C318CA007E8EAC /* popytka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDABF92025C318CC007E8EAC /* Build configuration list for PBXNativeTarget "popytka" */;
+			buildPhases = (
+				FDABF8EF25C318CA007E8EAC /* Sources */,
+				FDABF8F025C318CA007E8EAC /* Frameworks */,
+				FDABF8F125C318CA007E8EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = popytka;
+			productName = popytka;
+			productReference = FDABF8F325C318CA007E8EAC /* popytka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDABF90B25C318CC007E8EAC /* popytkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDABF92325C318CC007E8EAC /* Build configuration list for PBXNativeTarget "popytkaTests" */;
+			buildPhases = (
+				FDABF90825C318CC007E8EAC /* Sources */,
+				FDABF90925C318CC007E8EAC /* Frameworks */,
+				FDABF90A25C318CC007E8EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDABF90E25C318CC007E8EAC /* PBXTargetDependency */,
+			);
+			name = popytkaTests;
+			productName = popytkaTests;
+			productReference = FDABF90C25C318CC007E8EAC /* popytkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDABF91625C318CC007E8EAC /* popytkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDABF92625C318CC007E8EAC /* Build configuration list for PBXNativeTarget "popytkaUITests" */;
+			buildPhases = (
+				FDABF91325C318CC007E8EAC /* Sources */,
+				FDABF91425C318CC007E8EAC /* Frameworks */,
+				FDABF91525C318CC007E8EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDABF91925C318CC007E8EAC /* PBXTargetDependency */,
+			);
+			name = popytkaUITests;
+			productName = popytkaUITests;
+			productReference = FDABF91725C318CC007E8EAC /* popytkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDABF8EB25C318C9007E8EAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					FDABF8F225C318CA007E8EAC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					FDABF90B25C318CC007E8EAC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FDABF8F225C318CA007E8EAC;
+					};
+					FDABF91625C318CC007E8EAC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FDABF8F225C318CA007E8EAC;
+					};
+				};
+			};
+			buildConfigurationList = FDABF8EE25C318C9007E8EAC /* Build configuration list for PBXProject "popytka" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDABF8EA25C318C9007E8EAC;
+			productRefGroup = FDABF8F425C318CA007E8EAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDABF8F225C318CA007E8EAC /* popytka */,
+				FDABF90B25C318CC007E8EAC /* popytkaTests */,
+				FDABF91625C318CC007E8EAC /* popytkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDABF8F125C318CA007E8EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDABF90625C318CC007E8EAC /* LaunchScreen.storyboard in Resources */,
+				FDABF90325C318CC007E8EAC /* Assets.xcassets in Resources */,
+				FDABF8FE25C318CA007E8EAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDABF90A25C318CC007E8EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDABF91525C318CC007E8EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDABF8EF25C318CA007E8EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDABF90125C318CA007E8EAC /* popytka.xcdatamodeld in Sources */,
+				FDABF8FB25C318CA007E8EAC /* ViewController.swift in Sources */,
+				FDABF8F725C318CA007E8EAC /* AppDelegate.swift in Sources */,
+				FDABF8F925C318CA007E8EAC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDABF90825C318CC007E8EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDABF91125C318CC007E8EAC /* popytkaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDABF91325C318CC007E8EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDABF91C25C318CC007E8EAC /* popytkaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDABF90E25C318CC007E8EAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDABF8F225C318CA007E8EAC /* popytka */;
+			targetProxy = FDABF90D25C318CC007E8EAC /* PBXContainerItemProxy */;
+		};
+		FDABF91925C318CC007E8EAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDABF8F225C318CA007E8EAC /* popytka */;
+			targetProxy = FDABF91825C318CC007E8EAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDABF8FC25C318CA007E8EAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDABF8FD25C318CA007E8EAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDABF90425C318CC007E8EAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDABF90525C318CC007E8EAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDABF91E25C318CC007E8EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDABF91F25C318CC007E8EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDABF92125C318CC007E8EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W7XZX5HN7;
+				INFOPLIST_FILE = popytka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khassenova.aidana.popytka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDABF92225C318CC007E8EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W7XZX5HN7;
+				INFOPLIST_FILE = popytka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khassenova.aidana.popytka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDABF92425C318CC007E8EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W7XZX5HN7;
+				INFOPLIST_FILE = popytkaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khassenova.aidana.popytkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/popytka.app/popytka";
+			};
+			name = Debug;
+		};
+		FDABF92525C318CC007E8EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W7XZX5HN7;
+				INFOPLIST_FILE = popytkaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khassenova.aidana.popytkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/popytka.app/popytka";
+			};
+			name = Release;
+		};
+		FDABF92725C318CC007E8EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W7XZX5HN7;
+				INFOPLIST_FILE = popytkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khassenova.aidana.popytkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = popytka;
+			};
+			name = Debug;
+		};
+		FDABF92825C318CC007E8EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W7XZX5HN7;
+				INFOPLIST_FILE = popytkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khassenova.aidana.popytkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = popytka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDABF8EE25C318C9007E8EAC /* Build configuration list for PBXProject "popytka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDABF91E25C318CC007E8EAC /* Debug */,
+				FDABF91F25C318CC007E8EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDABF92025C318CC007E8EAC /* Build configuration list for PBXNativeTarget "popytka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDABF92125C318CC007E8EAC /* Debug */,
+				FDABF92225C318CC007E8EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDABF92325C318CC007E8EAC /* Build configuration list for PBXNativeTarget "popytkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDABF92425C318CC007E8EAC /* Debug */,
+				FDABF92525C318CC007E8EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDABF92625C318CC007E8EAC /* Build configuration list for PBXNativeTarget "popytkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDABF92725C318CC007E8EAC /* Debug */,
+				FDABF92825C318CC007E8EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDABF8FF25C318CA007E8EAC /* popytka.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDABF90025C318CA007E8EAC /* popytka.xcdatamodel */,
+			);
+			currentVersion = FDABF90025C318CA007E8EAC /* popytka.xcdatamodel */;
+			path = popytka.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDABF8EB25C318C9007E8EAC /* Project object */;
+}
