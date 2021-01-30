@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2133A8536A76834CC912E77C /* Pods_popytka_popytkaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265D8C7F7F0C693F54C7B860 /* Pods_popytka_popytkaUITests.framework */; };
+		C1E22A5468F17305BC49221E /* Pods_popytkaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF759A1C67673FD29FBF49C0 /* Pods_popytkaTests.framework */; };
+		F2B3BA7F55EED758B461563E /* Pods_popytka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64EA04C4FDF2F8A95EFD6A62 /* Pods_popytka.framework */; };
+		FD1003A725C394D500F39AAA /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1003A625C394D500F39AAA /* PhotoCell.swift */; };
+		FD85AFE225C37C160053761C /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD85AFE125C37C160053761C /* NetworkDataFetcher.swift */; };
+		FD85AFE725C37C900053761C /* searchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD85AFE625C37C900053761C /* searchResults.swift */; };
 		FDABF8F725C318CA007E8EAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABF8F625C318CA007E8EAC /* AppDelegate.swift */; };
 		FDABF8F925C318CA007E8EAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABF8F825C318CA007E8EAC /* SceneDelegate.swift */; };
 		FDABF8FB25C318CA007E8EAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABF8FA25C318CA007E8EAC /* ViewController.swift */; };
-		FDABF8FE25C318CA007E8EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDABF8FC25C318CA007E8EAC /* Main.storyboard */; };
 		FDABF90125C318CA007E8EAC /* popytka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDABF8FF25C318CA007E8EAC /* popytka.xcdatamodeld */; };
 		FDABF90325C318CC007E8EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDABF90225C318CC007E8EAC /* Assets.xcassets */; };
 		FDABF90625C318CC007E8EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDABF90425C318CC007E8EAC /* LaunchScreen.storyboard */; };
 		FDABF91125C318CC007E8EAC /* popytkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABF91025C318CC007E8EAC /* popytkaTests.swift */; };
 		FDABF91C25C318CC007E8EAC /* popytkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABF91B25C318CC007E8EAC /* popytkaUITests.swift */; };
+		FDABF92D25C3194C007E8EAC /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABF92C25C3194C007E8EAC /* MainTabBarController.swift */; };
+		FDABF93825C31B00007E8EAC /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABF93725C31B00007E8EAC /* PhotosCollectionViewController.swift */; };
+		FDABF94025C36870007E8EAC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABF93F25C36870007E8EAC /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +44,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		170882F95C9E83AB62D2B949 /* Pods-popytka-popytkaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popytka-popytkaUITests.debug.xcconfig"; path = "Target Support Files/Pods-popytka-popytkaUITests/Pods-popytka-popytkaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		265D8C7F7F0C693F54C7B860 /* Pods_popytka_popytkaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_popytka_popytkaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		478B48CFBBFA03A5B0C4C62D /* Pods-popytkaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popytkaTests.debug.xcconfig"; path = "Target Support Files/Pods-popytkaTests/Pods-popytkaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		535AFFD3D5EE361FA7F51D32 /* Pods-popytkaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popytkaTests.release.xcconfig"; path = "Target Support Files/Pods-popytkaTests/Pods-popytkaTests.release.xcconfig"; sourceTree = "<group>"; };
+		64EA04C4FDF2F8A95EFD6A62 /* Pods_popytka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_popytka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		972046162A65EBBFF2ED5642 /* Pods-popytka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popytka.release.xcconfig"; path = "Target Support Files/Pods-popytka/Pods-popytka.release.xcconfig"; sourceTree = "<group>"; };
+		DF759A1C67673FD29FBF49C0 /* Pods_popytkaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_popytkaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FD3AF12795B9A0CA3EE8D3 /* Pods-popytka-popytkaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popytka-popytkaUITests.release.xcconfig"; path = "Target Support Files/Pods-popytka-popytkaUITests/Pods-popytka-popytkaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F52975800B177A7092EB20A7 /* Pods-popytka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popytka.debug.xcconfig"; path = "Target Support Files/Pods-popytka/Pods-popytka.debug.xcconfig"; sourceTree = "<group>"; };
+		FD1003A625C394D500F39AAA /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		FD85AFE125C37C160053761C /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		FD85AFE625C37C900053761C /* searchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResults.swift; sourceTree = "<group>"; };
 		FDABF8F325C318CA007E8EAC /* popytka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popytka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDABF8F625C318CA007E8EAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDABF8F825C318CA007E8EAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FDABF8FA25C318CA007E8EAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FDABF8FD25C318CA007E8EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDABF90025C318CA007E8EAC /* popytka.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = popytka.xcdatamodel; sourceTree = "<group>"; };
 		FDABF90225C318CC007E8EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDABF90525C318CC007E8EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +70,9 @@
 		FDABF91725C318CC007E8EAC /* popytkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popytkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDABF91B25C318CC007E8EAC /* popytkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popytkaUITests.swift; sourceTree = "<group>"; };
 		FDABF91D25C318CC007E8EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDABF92C25C3194C007E8EAC /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		FDABF93725C31B00007E8EAC /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		FDABF93F25C36870007E8EAC /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B3BA7F55EED758B461563E /* Pods_popytka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1E22A5468F17305BC49221E /* Pods_popytkaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +96,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2133A8536A76834CC912E77C /* Pods_popytka_popytkaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E8E36B6ACA1A9E982014C9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F52975800B177A7092EB20A7 /* Pods-popytka.debug.xcconfig */,
+				972046162A65EBBFF2ED5642 /* Pods-popytka.release.xcconfig */,
+				170882F95C9E83AB62D2B949 /* Pods-popytka-popytkaUITests.debug.xcconfig */,
+				E6FD3AF12795B9A0CA3EE8D3 /* Pods-popytka-popytkaUITests.release.xcconfig */,
+				478B48CFBBFA03A5B0C4C62D /* Pods-popytkaTests.debug.xcconfig */,
+				535AFFD3D5EE361FA7F51D32 /* Pods-popytkaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7520BF7E1C9E1A727C8467D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64EA04C4FDF2F8A95EFD6A62 /* Pods_popytka.framework */,
+				265D8C7F7F0C693F54C7B860 /* Pods_popytka_popytkaUITests.framework */,
+				DF759A1C67673FD29FBF49C0 /* Pods_popytkaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD85AFEB25C37C9F0053761C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD85AFE625C37C900053761C /* searchResults.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FDABF8EA25C318C9007E8EAC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +142,8 @@
 				FDABF90F25C318CC007E8EAC /* popytkaTests */,
 				FDABF91A25C318CC007E8EAC /* popytkaUITests */,
 				FDABF8F425C318CA007E8EAC /* Products */,
+				2E8E36B6ACA1A9E982014C9D /* Pods */,
+				7520BF7E1C9E1A727C8467D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,11 +163,14 @@
 				FDABF8F625C318CA007E8EAC /* AppDelegate.swift */,
 				FDABF8F825C318CA007E8EAC /* SceneDelegate.swift */,
 				FDABF8FA25C318CA007E8EAC /* ViewController.swift */,
-				FDABF8FC25C318CA007E8EAC /* Main.storyboard */,
 				FDABF90225C318CC007E8EAC /* Assets.xcassets */,
 				FDABF90425C318CC007E8EAC /* LaunchScreen.storyboard */,
 				FDABF90725C318CC007E8EAC /* Info.plist */,
 				FDABF8FF25C318CA007E8EAC /* popytka.xcdatamodeld */,
+				FDABF92C25C3194C007E8EAC /* MainTabBarController.swift */,
+				FDABF93725C31B00007E8EAC /* PhotosCollectionViewController.swift */,
+				FDABF94425C37514007E8EAC /* Services */,
+				FD1003A625C394D500F39AAA /* PhotoCell.swift */,
 			);
 			path = popytka;
 			sourceTree = "<group>";
@@ -131,6 +193,16 @@
 			path = popytkaUITests;
 			sourceTree = "<group>";
 		};
+		FDABF94425C37514007E8EAC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FD85AFEB25C37C9F0053761C /* Model */,
+				FDABF93F25C36870007E8EAC /* NetworkService.swift */,
+				FD85AFE125C37C160053761C /* NetworkDataFetcher.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDABF92025C318CC007E8EAC /* Build configuration list for PBXNativeTarget "popytka" */;
 			buildPhases = (
+				C3CD45BE07E77DB5DEC1E911 /* [CP] Check Pods Manifest.lock */,
 				FDABF8EF25C318CA007E8EAC /* Sources */,
 				FDABF8F025C318CA007E8EAC /* Frameworks */,
 				FDABF8F125C318CA007E8EAC /* Resources */,
+				63F971B7E390F887A0000885 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDABF92325C318CC007E8EAC /* Build configuration list for PBXNativeTarget "popytkaTests" */;
 			buildPhases = (
+				7C648034FF7EBED49F8E2EC8 /* [CP] Check Pods Manifest.lock */,
 				FDABF90825C318CC007E8EAC /* Sources */,
 				FDABF90925C318CC007E8EAC /* Frameworks */,
 				FDABF90A25C318CC007E8EAC /* Resources */,
@@ -173,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDABF92625C318CC007E8EAC /* Build configuration list for PBXNativeTarget "popytkaUITests" */;
 			buildPhases = (
+				A971A2AC6F1DCE7A2FD52C30 /* [CP] Check Pods Manifest.lock */,
 				FDABF91325C318CC007E8EAC /* Sources */,
 				FDABF91425C318CC007E8EAC /* Frameworks */,
 				FDABF91525C318CC007E8EAC /* Resources */,
+				B84D4BA2E68CB04B3CE80A42 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +313,6 @@
 			files = (
 				FDABF90625C318CC007E8EAC /* LaunchScreen.storyboard in Resources */,
 				FDABF90325C318CC007E8EAC /* Assets.xcassets in Resources */,
-				FDABF8FE25C318CA007E8EAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +332,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63F971B7E390F887A0000885 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-popytka/Pods-popytka-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-popytka/Pods-popytka-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-popytka/Pods-popytka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C648034FF7EBED49F8E2EC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-popytkaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A971A2AC6F1DCE7A2FD52C30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-popytka-popytkaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B84D4BA2E68CB04B3CE80A42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-popytka-popytkaUITests/Pods-popytka-popytkaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-popytka-popytkaUITests/Pods-popytka-popytkaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-popytka-popytkaUITests/Pods-popytka-popytkaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3CD45BE07E77DB5DEC1E911 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-popytka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FDABF8EF25C318CA007E8EAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD85AFE225C37C160053761C /* NetworkDataFetcher.swift in Sources */,
 				FDABF90125C318CA007E8EAC /* popytka.xcdatamodeld in Sources */,
 				FDABF8FB25C318CA007E8EAC /* ViewController.swift in Sources */,
+				FDABF92D25C3194C007E8EAC /* MainTabBarController.swift in Sources */,
+				FDABF93825C31B00007E8EAC /* PhotosCollectionViewController.swift in Sources */,
+				FD85AFE725C37C900053761C /* searchResults.swift in Sources */,
+				FD1003A725C394D500F39AAA /* PhotoCell.swift in Sources */,
 				FDABF8F725C318CA007E8EAC /* AppDelegate.swift in Sources */,
 				FDABF8F925C318CA007E8EAC /* SceneDelegate.swift in Sources */,
+				FDABF94025C36870007E8EAC /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +485,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FDABF8FC25C318CA007E8EAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDABF8FD25C318CA007E8EAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FDABF90425C318CC007E8EAC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,6 +614,7 @@
 		};
 		FDABF92125C318CC007E8EAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F52975800B177A7092EB20A7 /* Pods-popytka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +634,7 @@
 		};
 		FDABF92225C318CC007E8EAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972046162A65EBBFF2ED5642 /* Pods-popytka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +654,7 @@
 		};
 		FDABF92425C318CC007E8EAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478B48CFBBFA03A5B0C4C62D /* Pods-popytkaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +677,7 @@
 		};
 		FDABF92525C318CC007E8EAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 535AFFD3D5EE361FA7F51D32 /* Pods-popytkaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +700,7 @@
 		};
 		FDABF92725C318CC007E8EAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170882F95C9E83AB62D2B949 /* Pods-popytka-popytkaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +721,7 @@
 		};
 		FDABF92825C318CC007E8EAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6FD3AF12795B9A0CA3EE8D3 /* Pods-popytka-popytkaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

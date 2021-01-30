@@ -1,0 +1,6 @@
+framework module Pods_popytkaTests {
+  umbrella header "Pods-popytkaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
